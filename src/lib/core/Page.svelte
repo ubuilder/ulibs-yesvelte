@@ -8,6 +8,9 @@
     import { goto } from "$app/navigation";
     
     export let title: string | undefined;
+
+    export let theme: string | undefined = undefined;
+    export let dir: string | undefined = undefined
   
     export let htmlTitle: string | undefined = title;
   
@@ -60,7 +63,7 @@
     {/if}
   </svelte:head>
   
-  <El container="lg">
+  <El data-bs-theme={theme} {dir} container="lg">
     {#if title || $$slots['title'] || $$slots['header-buttons']}
     <PageHeader px="0">
       <slot name="title" slot="title">
