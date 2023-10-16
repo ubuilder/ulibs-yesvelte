@@ -1,6 +1,6 @@
 {
 	"name": "@ulibs/yesvelte",
-	"version": "0.0.2-next.15",
+	"version": "0.0.2-next.16",
 	"publishConfig": {
 		"access": "public"
 	},
