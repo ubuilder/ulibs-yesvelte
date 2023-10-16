@@ -1,6 +1,6 @@
 <script>
 	import { ListBox, ListItem } from '$lib';
-	import {El, Button } from 'yesvelte'
+	import {El, Card, CardBody, Button, FormEditor, FormInput } from 'yesvelte'
 	import { StatusItem, alert } from '$lib';
 	import { confirmModal } from '$lib';
 	import { ButtonList } from '$lib';
@@ -56,3 +56,12 @@
 	<Button on:click={() => alert.success("Action succeed!", 'Success', 30000)}>Open Alert</Button>
 
 </ButtonList>
+
+<Card>
+
+	<CardBody>
+
+		<FormEditor label="Editor"/>
+		<FormInput label="Input"/>
+		</CardBody>
+</Card>

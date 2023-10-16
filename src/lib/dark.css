@@ -93,6 +93,19 @@ body:has([data-bs-theme="light"]), [data-bs-theme="light"] {
     box-shadow: 0 2px 8px -6px black;
 }
 
+.y-editor {
+    background-color: var(--y-bg-forms);
+}
+
+.y-editor-wrapper:not(.y-editor-wrapper-loaded) {
+    border-color: var(--border-color) !important;
+    background-color: var(--y-bg-forms);
+}
+
+.y-editor-wrapper .ql-toolbar {
+    background-color: var(--y-bg-surface-tertiary);
+}
+
 .y-popup {
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 12px -8px black;
