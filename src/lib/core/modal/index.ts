@@ -1,5 +1,5 @@
 import ConfirmModal from './ConfirmModal.svelte'
-import { modal } from './modal'
+import { modal } from './modal.js'
 
 export const confirmModal = modal.create(
 	ConfirmModal,
@@ -11,3 +11,6 @@ export const confirmModal = modal.create(
 )
 
 export { modal }
+
+export {default as ModalBase} from './BaseModal.svelte'
+export {default as ModalProvider} from './ModalProvider.svelte'

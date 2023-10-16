@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Button, ModalBody, ModalFooter, El, Icon } from 'yesvelte'
-	import Modal from './Modal.svelte'
-	import { modal } from './modal'
+	import BaseModal from './BaseModal.svelte'
+	import { modal } from './modal.js'
 
 	export let status: 'danger' | undefined = undefined
 	export let title: string = 'Are you sure?'
@@ -22,7 +22,7 @@
 	let loading = false
 </script>
 
-<Modal title={status === 'danger' ? undefined : title}>
+<BaseModal title={status === 'danger' ? undefined : title}>
 	<ModalBody>
 		{#if status === 'danger'}
 			<El textAlign="center">
@@ -51,4 +51,4 @@
 			</El>
 		{/if}
 	</ModalFooter>
-</Modal>
+</BaseModal>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { modal } from './modal'
+	import { modal } from './modal.js'
 	import { Modal } from 'yesvelte'
 </script>
 
