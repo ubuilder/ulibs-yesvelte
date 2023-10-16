@@ -15,7 +15,7 @@
 		z-index: 1040;
 		transition-property: all;
 		transition-duration: 400ms;
-		background-color: rgba(255, 255, 255, 0.347);
+		background-color: #ffffff10;
 		opacity: 0;
 		pointer-events: none;
 		width: 100%;
@@ -29,9 +29,6 @@
 		justify-content: center;
 	}
 
-	:global([data-bs-theme='dark']) .loading {
-		background-color: rgba(30, 48, 70, 0.347);
-	}
 	.loading > h1 {
 		margin-top: 1rem;
 		font-weight: 400;
