@@ -4,8 +4,6 @@
 	import AlertProvider from './alert/AlertProvider.svelte';
 	import { alert } from './alert/index.js';
 
-	import 'yesvelte/css/tabler.rtl.min.css';
-	import '../dark.css';
 
 	export let title: string = 'Project Title';
 	export let theme = 'dark';
