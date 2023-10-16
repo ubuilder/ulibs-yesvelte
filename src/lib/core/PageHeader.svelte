@@ -5,7 +5,7 @@
     export let back: boolean = false;
   </script>
   
-  <El d="flex" mt="3" class="page-header" gap="3" {...$$restProps}>
+  <El d="flex" pt="3" class="page-header" gap="3" {...$$restProps}>
     <El tag="h2" mb="0" style="font-size: 2rem; white-space: nowrap">
       <slot name="title">
           {title}
