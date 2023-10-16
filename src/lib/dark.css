@@ -93,34 +93,10 @@ body:has([data-bs-theme="dark"]), [data-bs-theme="dark"] {
 .y-alert {
     background-color: var(--y-bg-surface-secondary);
 }
+
 .filter-button {
     box-shadow: 0 2px 4px -2px #00000040;
     border-color: var(--border-color);    
-}
-
-.component-item, .page-item, .table-item {
-    background-color: var(--y-bg-surface) !important;
-    border-radius: 8px;
-    border: 1px solid var(--border-color) !important;
-    box-shadow: 0 4px 8px -8px black;
-}
-.component-item {
-    box-shadow: 0 2px 4px -4px black !important;
-    background-color: #505660 !important;
-}
-
-.component-item.active {
-    box-shadow: 0 4px 16px -8px black !important;
-    border-color: var(--y-bg-forms) !important;
-    background-color: #485871 !important;
-}
-
-.component-item, .page-item:hover, .table-item:hover {
-    box-shadow: 0 4px 16px -8px black;
-}
-
-.page-slot {
-    box-shadow: 0 2px 8px -4px black !important;
 }
 
 .y-card-header {
