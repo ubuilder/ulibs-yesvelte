@@ -12,5 +12,5 @@ export const confirmModal = modal.create(
 
 export { modal }
 
-export {default as ModalBase} from './BaseModal.svelte'
+export {default as BaseModal} from './BaseModal.svelte'
 export {default as ModalProvider} from './ModalProvider.svelte'
