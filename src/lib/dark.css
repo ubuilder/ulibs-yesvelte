@@ -3,7 +3,7 @@ body:has([data-bs-theme="dark"]), [data-bs-theme="dark"] {
     --y-body-color: #ecedee;
     --y-bg-surface: #484b54;
     
-    --y-bg-forms: #35383d;
+    --y-bg-forms: #383c43;
     --y-bg-surface-dark: #2b2d30;
     --y-bg-surface-secondary: #4f525a;
     --y-bg-surface-tertiary: #3c4047;
