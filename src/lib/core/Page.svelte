@@ -4,7 +4,7 @@
 	import { writable } from 'svelte/store';
 	import { goto } from '$app/navigation';
 
-	export let title: string | undefined;
+	export let title: string | undefined = undefined;
 
 	export let theme: string | undefined = undefined;
 	export let dir: string | undefined = undefined;

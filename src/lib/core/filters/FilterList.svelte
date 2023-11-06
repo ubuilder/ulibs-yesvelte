@@ -7,7 +7,7 @@
 	export let filters: any = {};
 	let filtersStore = writable(filters);
 
-	setContext('FILTERS', filters);
+	setContext('FILTERS', filtersStore);
 
 	$: filters = $filtersStore;
 </script>
